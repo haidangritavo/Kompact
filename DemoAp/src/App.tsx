@@ -1,4 +1,4 @@
-import './App.css'
+import "./App.css";
 
 function App() {
   return (
@@ -13,8 +13,12 @@ function App() {
             DemoApp
           </div>
           <ul className="nav-links">
-            <li><a href="#features">Tính năng</a></li>
-            <li><a href="#download">Tải xuống</a></li>
+            <li>
+              <a href="#features">Tính năng</a>
+            </li>
+            <li>
+              <a href="#download">Tải xuống</a>
+            </li>
           </ul>
         </div>
       </nav>
@@ -24,7 +28,8 @@ function App() {
         <div className="hero-content">
           <div className="badge">Dành cho Windows 10 / 11</div>
           <h1 className="hero-title">
-            Giải pháp quản lý<br />
+            Giải pháp quản lý
+            <br />
             <span className="gradient-text">thông minh & hiệu quả</span>
           </h1>
           <p className="hero-desc">
@@ -68,22 +73,33 @@ function App() {
           <div className="feature-card">
             <div className="feature-icon">⚡</div>
             <h3>Hiệu suất cao</h3>
-            <p>Tối ưu hóa để chạy mượt mà trên mọi cấu hình Windows, tiêu thụ tài nguyên thấp.</p>
+            <p>
+              Tối ưu hóa để chạy mượt mà trên mọi cấu hình Windows, tiêu thụ tài
+              nguyên thấp.
+            </p>
           </div>
           <div className="feature-card">
             <div className="feature-icon">🔒</div>
             <h3>Bảo mật tuyệt đối</h3>
-            <p>Mã hóa dữ liệu end-to-end, phân quyền chi tiết theo vai trò người dùng.</p>
+            <p>
+              Mã hóa dữ liệu end-to-end, phân quyền chi tiết theo vai trò người
+              dùng.
+            </p>
           </div>
           <div className="feature-card">
             <div className="feature-icon">🔄</div>
             <h3>Đồng bộ real-time</h3>
-            <p>Dữ liệu được đồng bộ tức thời giữa các thiết bị, luôn cập nhật mới nhất.</p>
+            <p>
+              Dữ liệu được đồng bộ tức thời giữa các thiết bị, luôn cập nhật mới
+              nhất.
+            </p>
           </div>
           <div className="feature-card">
             <div className="feature-icon">📊</div>
             <h3>Báo cáo thông minh</h3>
-            <p>Dashboard trực quan, xuất báo cáo Excel/PDF chỉ với một cú click.</p>
+            <p>
+              Dashboard trực quan, xuất báo cáo Excel/PDF chỉ với một cú click.
+            </p>
           </div>
         </div>
       </section>
@@ -110,8 +126,19 @@ function App() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" width="22" height="22">
-              <path d="M12 3v13M5 14l7 7 7-7" strokeLinecap="round" strokeLinejoin="round" />
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2.5"
+              width="22"
+              height="22"
+            >
+              <path
+                d="M12 3v13M5 14l7 7 7-7"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
               <path d="M3 21h18" strokeLinecap="round" />
             </svg>
             Tải xuống (.exe)
@@ -124,74 +151,7 @@ function App() {
         <p>© {new Date().getFullYear()} DemoApp. All rights reserved.</p>
       </footer>
     </div>
-                Learn more
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div id="social">
-          <svg className="icon" role="presentation" aria-hidden="true">
-            <use href="/icons.svg#social-icon"></use>
-          </svg>
-          <h2>Connect with us</h2>
-          <p>Join the Vite community</p>
-          <ul>
-            <li>
-              <a href="https://github.com/vitejs/vite" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#github-icon"></use>
-                </svg>
-                GitHub
-              </a>
-            </li>
-            <li>
-              <a href="https://chat.vite.dev/" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#discord-icon"></use>
-                </svg>
-                Discord
-              </a>
-            </li>
-            <li>
-              <a href="https://x.com/vite_js" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#x-icon"></use>
-                </svg>
-                X.com
-              </a>
-            </li>
-            <li>
-              <a href="https://bsky.app/profile/vite.dev" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#bluesky-icon"></use>
-                </svg>
-                Bluesky
-              </a>
-            </li>
-          </ul>
-        </div>
-      </section>
-
-      <div className="ticks"></div>
-      <section id="spacer"></section>
-    </>
-  )
+  );
 }
 
-export default App
+export default App;
