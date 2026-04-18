@@ -116,7 +116,7 @@ function App() {
           <p>Miễn phí hoàn toàn. Hỗ trợ Windows 10 / 11 (64-bit).</p>
           <div className="download-meta">
             <span>📦 Phiên bản 1.0.0</span>
-            <span>💾 ~45 MB</span>
+            <span>💾 ~75 MB</span>
             <span>✅ Không cần đăng ký</span>
           </div>
           {/* ← Thay YOUR_GOOGLE_DRIVE_LINK bằng link tải thực của bạn */}
