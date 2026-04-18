@@ -121,7 +121,7 @@ function App() {
           </div>
           {/* ← Thay YOUR_GOOGLE_DRIVE_LINK bằng link tải thực của bạn */}
           <a
-            href="YOUR_GOOGLE_DRIVE_LINK"
+            href="https://drive.google.com/file/d/1Kg-s-X4zs4OXcp6oCc39HG5hecnd46fB/view?usp=sharing"
             className="btn-download"
             target="_blank"
             rel="noopener noreferrer"
